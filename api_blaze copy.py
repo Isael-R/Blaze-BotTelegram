@@ -5,7 +5,7 @@ from time import sleep
 
 
 cont = 0
-#giwhile cont < 1:
+while False:
     request_api = requests.get('https://blaze.com/api/roulette_games/recent')
     response = request_api.json()
 
