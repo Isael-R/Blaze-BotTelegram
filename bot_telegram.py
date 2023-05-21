@@ -5,7 +5,7 @@ from time import sleep
 
 CHAVE_API = ''
 bot = telebot.TeleBot(CHAVE_API)
-id_grupo = '-1001921724490'
+id_grupo = ''
 
 
 @bot.message_handler(commands=['start'])
